@@ -7,7 +7,6 @@
 }
 
 body {
-	background: #829399;
 	height: 100%;
 	color: #363D42;
 }
@@ -18,12 +17,16 @@ button {
 	outline: none;
 }
 
+button:hover i {
+	color: #0C0E0F;
+}
+
 i {
 	color: #363D42;
 }
 
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	color: black;
 }
 
@@ -50,9 +53,10 @@ h2 {
 }
 
 .session, .break {
-	flex-grow: 1;
+	width: 40%;
 	text-align: center;
 }
+
 
 .session {
 	margin-right: 8em;
@@ -63,6 +67,14 @@ h2 {
 	justify-content: space-between;
 	font-size: 30px;
 	margin-top: 1em;
+}
+
+.break-color {
+	color: #A37871;
+}
+
+.session-color {
+	color: #1A5E63;
 }
 
 .controls {

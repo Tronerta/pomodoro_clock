@@ -8,17 +8,17 @@
 </head>
 <body>
 	<section class="container">
-		<h1>25:00</h1>
-		<h2>Session</h2>
+		<h1 id="timer">25:00</h1>
+		<h2 id="indicator" class="session-color">Session</h2>
 		<div class="buttons">
 			<div class="session">
 				<h3>Session</h3>
 				<div class="session-buttons">
-					<button id="minus">
-					<i class="fas fa-minus fa-2x"></i>
+					<button id="session_minus" class="operator">
+						<i class="fas fa-minus fa-2x"></i>
 					</button>
-					<p id="minutes">10</p>
-					<button id="plus">
+					<p id="sessionMinutes">25</p>
+					<button id="session_plus" class="operator">
 						<i class="fas fa-plus fa-2x"></i>
 					</button>
 				</div>
@@ -26,11 +26,11 @@
 			<div class="break">
 				<h3>Break</h3>
 				<div class="break-buttons">
-					<button id="minus">
-					<i class="fas fa-minus fa-2x"></i>
+					<button id="break_minus" class="operator">
+						<i class="fas fa-minus fa-2x"></i>
 					</button>
-					<p id="minutes">10</p>
-					<button id="plus">
+					<p id="breakMinutes">5</p>
+					<button id="break_plus" class="operator">
 						<i class="fas fa-plus fa-2x"></i>
 					</button>
 				</div>
@@ -54,5 +54,7 @@
 			</button>
 		</div>
 	</section>
+
+	<script src="main.js"></script>
 </body>
 </html>
